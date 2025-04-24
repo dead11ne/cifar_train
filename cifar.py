@@ -11,7 +11,7 @@ transform = transforms.Compose([
 ])
 
 dataset = datasets.CIFAR10(
-    root='C:/Users/MSI/Desktop/data',
+    root='C:/Users/MSI/Desktop/cifar_train/data',
     train=True,
     download=True,
     transform=transform
